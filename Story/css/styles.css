@@ -1,0 +1,17 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+    min-height:100vh;
+    box-sizing:border-box;
+
+    font-family:'Times New Roman', Times, serif;
+    font-size:1em;
+    color: black;
+    
+    background-image:linear-gradient(to right, rgba(36, 21, 0, 0.599), rgba(36, 21, 0, 0.144)), url("../img/paperBG3.jpg");
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
