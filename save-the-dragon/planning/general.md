@@ -5,6 +5,7 @@ This document should be used to write down the overarching ideas and themes for 
 If you want to make any additions or edits to routes that aren't your main one, **please reference this document first** to make sure your additions are in line with the overall plan.
 
 ## Slay Route
+### Micah
 *Micah, feel free to change what you want with this, these are just what my first thoughts on this route were.*
 
 **Genre:** Eldritch Horror
@@ -20,6 +21,8 @@ If you want to make any additions or edits to routes that aren't your main one, 
 - Every time there seems to be some logic or pattern, it is immediately turned on its head. Except after this has repeated a few times, a pattern can stay for just long enough to subvert the player's expectation of expectations always being subverted :)
 
 ## Free Route
+### Bol
+*Bol, feel free to change what you want with this, these are just what my first thoughts on this route were.*
 
 **Genre:** Adventure
 
@@ -29,10 +32,10 @@ If you want to make any additions or edits to routes that aren't your main one, 
 - Gonna be honest this is probably just gonna be a bunch of fantasy settings I've thought of over the years I don't have another use for
 - Alice in Wonderland vibes, but if Alice actually had a fun time instead of being confused and pushed around everywhere
 - The unknown in this route is not fightening, but instead exciting and an opportunity to learn
-- (Maybe have some things that show up in the horror route pop up here too, but presented more positively, show everything's a matter of perspective? Would really drive home that a lot of the horror in the Slay route comes from the character's own rigidity and unwillingness to consider other perspectives)
+- (Maybe have some things that show up in the horror route pop up here too, but presented more positively. Show everything's a matter of perspective. That would really drive home that a lot of the horror in the Slay route comes from the character's own rigidity and unwillingness to consider other perspectives)
 
 ## Freeze Route
-*This path will only be added if we have time, prioritize the other two routes first.*
+### Ray
 
 **Genre:** Survival
 
