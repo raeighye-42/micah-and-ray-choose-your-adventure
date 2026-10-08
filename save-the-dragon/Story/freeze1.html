@@ -11,6 +11,17 @@
         <p>A choose-your-own adventure by Bol, Micah, and Ray.</p>
     </header>
 
+    <style>
+        .fake-choice:hover a {
+            display: none;
+        }
+
+        .fake-choice:hover::after {
+            content: "[Regret.]";
+        }
+
+    </style>
+
     <main>
         <h2>[Stop, unsure.]</h2>
         <p>You freeze before the dragon trapped on the forest floor, unable to decide what the best course of action is. Surprisingly, it does not call upon the hellfire in its belly to smite you</p>
@@ -19,7 +30,10 @@
         <p>At first it had struggled silently, but now it makes a noise akin to a whimpering dog. It's energy is now mostly spent, its struggle proved pointless. Now it lays still, making wounded noises.</p>
 
 
-        <a href="freeze/freeze2A.html">[Gag it.]</a> <a href="freeze/freeze2B.html">[Silence it with your sword.]</a> <a href="freeze/freeze2C.html">[Walk away.]</a> <a href="freeze/freeze2D.html">[Free it.]</a>
+        <a href="freeze/freeze2A.html">[Gag it.]</a> <a href="freeze/freeze2B.html">[Silence it with your sword.]</a> <a href="freeze/freeze2C.html">[Walk away.]</a> <span class="fake-choice"><a href="freeze/freeze2D.html">[Free it.]</a></span>
+
+        <!--Would be cool if we could figure out how to have "Free it" change to "Regret" when you hover over it to click it.-->
+        
     </main>
 </body>
 </html>
