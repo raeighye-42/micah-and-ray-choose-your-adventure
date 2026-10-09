@@ -12,7 +12,8 @@
         <p>A choose-your-own adventure by Bol, Micah, and Ray.</p>
     </header>
 
-    <style>
+    <!-- commented out to prepare for javascript later -->
+    <!-- <style>
         .fake-choice:hover a {
             display: none;
         }
@@ -21,7 +22,7 @@
             content: "[Regret.]";
         }
 
-    </style>
+    </style> -->
 
     <main>
         <h2>[Stop, unsure.]</h2>
@@ -31,9 +32,15 @@
         <p>At first it had struggled silently, but now it makes a noise akin to a whimpering dog. It's energy is now mostly spent, its struggle proved pointless. Now it lays still, making wounded noises.</p>
 
 
-        <a href="freeze/freeze2A.html">[Gag it.]</a> <a href="freeze/freeze2B.html">[Silence it with your sword.]</a> <a href="freeze/freeze2C.html">[Walk away.]</a> <span class="fake-choice"><a href="freeze/freeze2D.html">[Free it.]</a></span>
+        <nav class="navBar navFourOptions">
+            <a href="freeze/freeze2A.html">[Gag it.]</a> <a href="freeze/freeze2B.html">[Silence it with your sword.]</a>
+            <a href="freeze/freeze2C.html">[Walk away.]</a>
+            <a href="freeze/freeze2D.html">[Free it.]</a>
+        </nav>
 
         <!--Would be cool if we could figure out how to have "Free it" change to "Regret" when you hover over it to click it.-->
+
+        <!-- MF: removed span on free it choice to prepare for javascript -->
         
     </main>
 </body>

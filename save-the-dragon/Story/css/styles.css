@@ -69,6 +69,10 @@ main{
     grid-template-rows: 100%;
 }
 
+.navFourOptions{
+    grid-template-columns: repeat(4, auto);
+}
+
 .navBar a {
     text-decoration:none;
     font-size: 1.5em;
