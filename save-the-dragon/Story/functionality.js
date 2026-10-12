@@ -2,11 +2,31 @@
 // changing the link text of the free/regret choice on freeze1.html
 
 const freeRegretLink = document.getElementById("freeRegretLink");
+const restartBtn = document.getElementById("startOverBtn");
 
-freeRegretLink.addEventListener("mouseover", () => {
-    setTimeout(() =>{freeRegretLink.textContent = "[REGRET]";}, 50);
-});
+let reset = false;
 
-freeRegretLink.addEventListener("mouseleave", () => {
-    setTimeout(() =>{freeRegretLink.textContent = "[Free it.]"}, 50);
+if(document.body.classList.contains("btnChangerPage")){
+    freeRegretLink.addEventListener("mouseover", () => {
+        setTimeout(() =>{freeRegretLink.textContent = "[REGRET]";}, 50);
+    });
+
+    freeRegretLink.addEventListener("mouseleave", () => {
+        setTimeout(() =>{freeRegretLink.textContent = "[Free it.]"}, 50);
+    });
+
+}
+
+if(document.body.classList.contains("deadEnd")){
+    restartBtn.addEventListener("click", () =>{
+    reset = true;
+
+    if(reset){
+        console.log("reset is true!");
+        reset = false;
+    }
+    else{
+        return(0);
+    }
 });
+}
