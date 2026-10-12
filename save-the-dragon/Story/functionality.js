@@ -9,5 +9,5 @@ freeRegretLink.addEventListener("mouseover", () => {
 });
 
 freeRegretLink.addEventListener("mouseleave", () => {
-    setTimeout(() =>{freeRegretLink.textContent = "[Free]"}, 50);
+    setTimeout(() =>{freeRegretLink.textContent = "[Free it.]"}, 50);
 });

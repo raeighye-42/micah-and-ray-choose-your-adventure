@@ -65,7 +65,7 @@ main{
 
 .navBar{
     display:grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-auto-flow:column;
     grid-template-rows: 100%;
     place-items:center;
 }
