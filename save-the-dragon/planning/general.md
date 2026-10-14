@@ -4,6 +4,8 @@ This document should be used to write down the overarching ideas and themes for 
 
 If you want to make any additions or edits to routes that aren't your main one, **please reference this document first** to make sure your additions are in line with the overall plan.
 
+Things like the location, what the dragon looks like, and details about the POV character can be different in each path. All details are influenced by the first choice the reader makes.
+
 ## Slay Route
 ### Micah
 *Micah, feel free to change what you want with this, these are just what my first thoughts on this route were.*
